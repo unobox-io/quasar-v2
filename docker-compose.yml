@@ -1,0 +1,8 @@
+version: "3.4"
+
+services:
+  pwa:
+    build:
+      context: ./pwa
+      target: unobox_pwa_prod
+
